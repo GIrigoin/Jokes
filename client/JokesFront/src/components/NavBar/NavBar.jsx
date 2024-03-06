@@ -14,6 +14,7 @@ const NavBar = ({ getNewJoke }) => {
 
   return (
     <div className={styles.NavBar}>
+      <div>The Joke went too far</div>
       <div>
         <label htmlFor="">Categoria: </label>
         <select name="categoria" value={category} onChange={handleSelectChange}>
